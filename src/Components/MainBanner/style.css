@@ -1,0 +1,71 @@
+/* Home Banner Design */
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner-caps/css/bpg-banner-caps.min.css");
+
+.home-header {
+  background: url(./MainBanner.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 115vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+span {
+  font-family: "BPG Banner Caps", sans-serif;
+}
+.home-header .banner-content{
+  max-width: 600px;
+  margin-bottom: 6rem;
+}
+
+.home-header .sub-title{
+  font-family: "BPG Banner Caps", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1683c6;
+}
+
+.home-header .title{
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 29px;
+  color: #fff;
+}
+
+.home-header .title span{
+  color: #1683c6;
+}
+
+.home-header .btn{
+  user-select: none;
+  -moz-user-select: none;
+  background: #000000 none repeat scroll 0 0;
+  border: 2px solid #1683c6;
+  border-radius: 50px;
+  color: #e3dfdf;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  padding: 16px 34px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  white-space: nowrap;
+  max-width: 220px;
+}
+
+.home-header .btn i{
+  font-weight: normal;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.home-header .btn:hover{
+  background: #1683c6;
+  color: #1e1b29;
+}
